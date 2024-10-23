@@ -49,8 +49,58 @@ const uint8_t side_light_table[5] = {
 
 #define SIDE_INDEX 99
 
-const uint8_t side_led_index_tab[45] = {
-    SIDE_INDEX + 10, SIDE_INDEX + 11, SIDE_INDEX + 12, SIDE_INDEX + 13, SIDE_INDEX + 14, SIDE_INDEX + 15, SIDE_INDEX + 16, SIDE_INDEX + 17, SIDE_INDEX + 18, SIDE_INDEX + 19, SIDE_INDEX + 20, SIDE_INDEX + 21, SIDE_INDEX + 22, SIDE_INDEX + 23, SIDE_INDEX + 0, SIDE_INDEX + 1, SIDE_INDEX + 2, SIDE_INDEX + 3, SIDE_INDEX + 4, SIDE_INDEX + 24, SIDE_INDEX + 25, SIDE_INDEX + 26, SIDE_INDEX + 27, SIDE_INDEX + 28, SIDE_INDEX + 29, SIDE_INDEX + 30, SIDE_INDEX + 31, SIDE_INDEX + 32, SIDE_INDEX + 33, SIDE_INDEX + 34, SIDE_INDEX + 35, SIDE_INDEX + 36, SIDE_INDEX + 37, SIDE_INDEX + 38, SIDE_INDEX + 39, SIDE_INDEX + 40, SIDE_INDEX + 41, SIDE_INDEX + 42, SIDE_INDEX + 43, SIDE_INDEX + 44, SIDE_INDEX + 9, SIDE_INDEX + 8, SIDE_INDEX + 7, SIDE_INDEX + 6, SIDE_INDEX + 5,
+const uint8_t side_led_index_tab[45] =
+    {
+        SIDE_INDEX + 25,
+        SIDE_INDEX + 26,
+        SIDE_INDEX + 27,
+        SIDE_INDEX + 28,
+        SIDE_INDEX + 29,
+        SIDE_INDEX + 30,
+        SIDE_INDEX + 31,
+        SIDE_INDEX + 32,
+        SIDE_INDEX + 33,
+        SIDE_INDEX + 34,
+        SIDE_INDEX + 35,
+        SIDE_INDEX + 36,
+        SIDE_INDEX + 37,
+        SIDE_INDEX + 38,
+        SIDE_INDEX + 39,
+        SIDE_INDEX + 40,
+        SIDE_INDEX + 41,
+        SIDE_INDEX + 42,
+        SIDE_INDEX + 43,
+        SIDE_INDEX + 44,
+
+        SIDE_INDEX + 9,
+        SIDE_INDEX + 8,
+        SIDE_INDEX + 7,
+        SIDE_INDEX + 6,
+        SIDE_INDEX + 5,
+
+        SIDE_INDEX + 10,
+        SIDE_INDEX + 11,
+        SIDE_INDEX + 12,
+        SIDE_INDEX + 13,
+        SIDE_INDEX + 14,
+        SIDE_INDEX + 15,
+        SIDE_INDEX + 16,
+        SIDE_INDEX + 17,
+        SIDE_INDEX + 18,
+        SIDE_INDEX + 19,
+        SIDE_INDEX + 20,
+        SIDE_INDEX + 21,
+        SIDE_INDEX + 22,
+        SIDE_INDEX + 23,
+        SIDE_INDEX + 24,
+
+        SIDE_INDEX + 0,
+        SIDE_INDEX + 1,
+        SIDE_INDEX + 2,
+        SIDE_INDEX + 3,
+        SIDE_INDEX + 4,
+
+
 };
 
 const uint8_t side_rgb_parallel[45] = {
